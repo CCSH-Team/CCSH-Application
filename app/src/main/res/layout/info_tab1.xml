@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center_horizontal|center_vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="65dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="교훈"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyohoont"
+                            android:textSize="15dip"
+                            android:textColor="#BDBDBD" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/stone"
+                        android:id="@+id/gyohoonp"
+                        android:layout_width="80dp" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="9dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="교훈"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyohoon"
+                            android:textSize="20sp"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:text="飛天雄志 - 미래를 향해 큰 뜻을 펼쳐라"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyohoonx"
+                            android:textSize="15sp"
+                            android:textStyle="normal|bold"
+                            android:textColor="#9E9E9E" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView8"
+                android:layout_height="1dp"
+                android:background="#E0E0E0" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="65dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="교목"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyomokt"
+                            android:textSize="15dip"
+                            android:textColor="#BDBDBD" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/sonamoo"
+                        android:id="@+id/gyomokp"
+                        android:layout_width="80dp" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="9dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="교목"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyomok"
+                            android:textSize="20sp"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:text="굳은 의지"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyomokx"
+                            android:textSize="15sp"
+                            android:textStyle="normal|bold"
+                            android:textColor="#9E9E9E" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView7"
+                android:layout_height="1dp"
+                android:background="#E0E0E0" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="65dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="교화"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyohwat"
+                            android:textSize="15dip"
+                            android:textColor="#BDBDBD"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/gyomok"
+                        android:id="@+id/gyohwap"
+                        android:layout_width="80dp" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="9dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <TextView
+                            android:text="교화"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyohwa"
+                            android:textSize="20sp"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:text="학문을 향한 열정"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyohwax"
+                            android:textSize="15sp"
+                            android:textStyle="normal|bold"
+                            android:textColor="#9E9E9E" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="65dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView"
+                    android:layout_height="1dp"
+                    android:background="#E0E0E0" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="교표"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyopyot"
+                            android:textSize="15dip"
+                            android:textColor="#BDBDBD" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="15dp"></LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/gyopyop"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/cheongsu_nodpi" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="9dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:text="청수고등학교"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyopyo"
+                            android:textSize="20sp"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:text="행복한 학생, 실력 있는 학생, 진로디자인 학교"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gyopyox"
+                            android:textSize="15sp"
+                            android:textStyle="normal|bold"
+                            android:textColor="#9E9E9E" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView2"
+                    android:layout_height="1dp"
+                    android:background="#E0E0E0" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
