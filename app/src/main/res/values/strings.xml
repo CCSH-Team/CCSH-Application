@@ -14,5 +14,15 @@
     <string name="ttab2">학교 안내</string>
     <string name="ttab3">더보기</string>
     <string name="sml">School Meals Library \n 급식 불러오기에 사용된 라이브러리 \n 개발자 : Mir(원당고등학교)</string>
+    <string name="money_1">ca-app-pub-2704416533707585/9859119958</string>
+    <string name="money_2">ca-app-pub-2704416533707585/2335853155</string>
+    <string name="money_3">ca-app-pub-2704416533707585/3812586352</string>
+    <string name="money_4">ca-app-pub-2704416533707585/8242785955</string>
+    <string name="money_5">ca-app-pub-2704416533707585/9719519157</string>
+    <string name="money_6">ca-app-pub-2704416533707585/2196252353</string>
+    <string name="money_7">ca-app-pub-2704416533707585/3672985557</string>
+    <string name="money_8">ca-app-pub-2704416533707585/5149718756</string>
+    <string name="money_9">ca-app-pub-2704416533707585/6626451958</string>
+    <string name="money_10">ca-app-pub-2704416533707585/8103185150</string>
 
 </resources>

@@ -20,6 +20,8 @@
         <activity android:name=".bapact"/>
         <activity android:name=".InfoLoader"/>
         <activity android:name=".diloader"/>
+        <activity android:name=".Browser"/>
+        <activity android:name=".SplashActivity" />
     </application>
 
 </manifest>

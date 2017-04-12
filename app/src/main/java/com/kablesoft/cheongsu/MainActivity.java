@@ -40,6 +40,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
@@ -47,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
     private WebView mHome;
     private WebView mgyoga;
     private ImageView mschool;
+    private AdView mMoney1;
+    private AdView mMoney2;
+    private AdView mMoney3;
+    private static final String TAG = "MainActivity";
     URL myFileUrl = null;
     FileOutputStream fos = null;
     HttpURLConnection conn = null;
@@ -55,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage);
+        startActivity(new Intent(this, SplashActivity.class));
         ImageView picschool = (ImageView) findViewById(R.id.main_pic);
         TabHost th = (TabHost) findViewById(R.id.main_tab);
         th.setup();
@@ -71,7 +79,13 @@ public class MainActivity extends AppCompatActivity {
         sp3.setContent(R.id.tab3);
         th.addTab(sp3);
 
-
+        mMoney1 = (AdView) findViewById(R.id.money1);
+        mMoney2 = (AdView) findViewById(R.id.money2);
+        mMoney3 = (AdView) findViewById(R.id.money3);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mMoney1.loadAd(adRequest);
+        mMoney2.loadAd(adRequest);
+        mMoney3.loadAd(adRequest);
     }
 
     @Override
